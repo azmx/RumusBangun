@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item1"
+        android:title="Bangun Datar"
+        android:icon="@android:drawable/ic_media_pause"/>
+    <item
+        android:id="@+id/menu_item2"
+        android:title="Bagun Ruang"
+        android:icon="@android:drawable/radiobutton_on_background"/>
+    <item
+        android:id="@+id/menu_item3"
+        android:title="Akun"
+        android:icon="@android:drawable/ic_menu_save"/>
+</menu>

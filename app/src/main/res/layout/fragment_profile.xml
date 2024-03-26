@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/material_dynamic_neutral_variant30"
+    tools:context=".fragment.fragment_profile">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvImage"
+        android:layout_width="128dp"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/material_dynamic_primary90"
+        app:cardCornerRadius="16dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="128dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_toEndOf="@id/cvImage"
+        android:background="@drawable/layout_background"
+        android:fontFamily="@font/montserrat_subrayada"
+        android:padding="8dp"
+        android:text="Muhammad azzam aqila daffa"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvname"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/cvImage"
+        android:background="@drawable/layout_background"
+        android:padding="16dp"
+        android:text="muhammadazzamaqiladaffa@gmail.com"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_subrayada"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/cvImage"
+        android:text="LogOut"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/material_dynamic_primary50"
+        />
+
+</RelativeLayout>
+
+</FrameLayout>
