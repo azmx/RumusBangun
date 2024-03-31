@@ -23,6 +23,7 @@
         android:layout_marginTop="20dp"
         />
     <EditText
+        android:inputType="number"
         android:id="@+id/panjangBalok"
         android:layout_width="152dp"
         android:layout_height="72dp"
@@ -31,6 +32,7 @@
         android:hint="Masukan Panjang"/>
 
     <EditText
+        android:inputType="number"
         android:id="@+id/lebarBalok"
         android:layout_width="152dp"
         android:layout_height="72dp"
@@ -39,6 +41,7 @@
         android:hint="Masukan Lebar"/>
 
     <EditText
+        android:inputType="number"
         android:id="@+id/tinggiBalok"
         android:layout_width="152dp"
         android:layout_height="72dp"

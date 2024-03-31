@@ -3,11 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.fragment_datar">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvBangun"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:backgroundTint="#FA7070"
+            app:cardCornerRadius="8dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvBangun"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/card"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:text="Menghitung Luas Bangun Datar"
+        android:textAlignment="textStart"
+        android:textSize="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        />
+
 
 </FrameLayout>

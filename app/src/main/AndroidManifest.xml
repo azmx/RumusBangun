@@ -40,6 +40,7 @@
         <activity android:name=".bangunDatar.persegi" />
         <activity android:name=".bangunDatar.lingkaran" />
         <activity android:name=".bangunDatar.persegiPanjang" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
